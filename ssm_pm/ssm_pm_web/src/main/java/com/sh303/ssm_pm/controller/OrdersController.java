@@ -24,8 +24,8 @@ public class OrdersController {
      *
      * @return
      */
-    @GetMapping("add.do")
-    public ModelAndView add() {
+    @GetMapping("add.to")
+    public ModelAndView toAdd() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("orders-add");
         return modelAndView;
@@ -44,7 +44,7 @@ public class OrdersController {
         ModelAndView modelAndView = new ModelAndView();
         List<Orders> ordersList = null;
         try {
-            ordersList = iOrdersService.findAdd(pageNum, pageSize);
+            ordersList = iOrdersService.findAll(pageNum, pageSize);
         } catch (Exception e) {
             e.printStackTrace();
         }

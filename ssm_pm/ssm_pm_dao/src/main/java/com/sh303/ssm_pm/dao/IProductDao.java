@@ -1,7 +1,6 @@
 package com.sh303.ssm_pm.dao;
 
 import com.sh303.ssm_pm.entity.Product;
-import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
@@ -15,7 +14,7 @@ public interface IProductDao {
      * @return
      */
     @Select("select * from product")
-    List<Product> findAll() throws Exception;
+    public List<Product> findAll() throws Exception;
 
     /**
      * 添加产品
@@ -23,7 +22,7 @@ public interface IProductDao {
      * @param product
      */
     @Insert("insert into product(id, productNum, productName, cityName, departureTime, productPrice, productDesc, productStatus) values(#{id}, #{productNum}, #{productName}, #{cityName}, #{departureTime}, #{productPrice}, #{productDesc}, #{productStatus})")
-    void save(Product product) throws Exception;
+    public void save(Product product) throws Exception;
 
     /**
      * 根据id 查询产品
@@ -33,6 +32,6 @@ public interface IProductDao {
      * @throws Exception
      */
     @Select("select * from product where id = #{id}")
-    Product findById(String id) throws Exception;
+    public Product findById(String id) throws Exception;
 
 }

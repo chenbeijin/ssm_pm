@@ -26,14 +26,14 @@ public class IOrdersServiceImpl implements IOrdersService {
      * @throws Exception
      */
     @Override
-    public List<Orders> findAdd(Integer pageNum, Integer pageSize) throws Exception {
+    public List<Orders> findAll(Integer pageNum, Integer pageSize) throws Exception {
         // 参数pageNum 是页码值  参数pageSize 是每页显示条数
         PageHelper.startPage(pageNum, pageSize);
-        return iOrdersDao.findAdd();
+        return iOrdersDao.findAll();
     }
 
     /**
-     * 查询单条订单
+     * 根据订单oId查询订单详细
      *
      * @param ordersId
      * @return

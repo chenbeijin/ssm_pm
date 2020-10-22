@@ -14,10 +14,10 @@ public interface IOrdersService {
      * @return
      * @throws Exception
      */
-    List<Orders> findAdd(Integer pageNum, Integer pageSize) throws Exception;
+    List<Orders> findAll(Integer pageNum, Integer pageSize) throws Exception;
 
     /**
-     * 查询单条订单
+     * 根据订单oId查询订单详细
      *
      * @param id
      * @return

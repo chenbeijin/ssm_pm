@@ -44,6 +44,7 @@
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
         <url-pattern>*.do</url-pattern>
+        <url-pattern>*.to</url-pattern>
     </servlet-mapping>
 
     <!-- 解决中文乱码过滤器 -->

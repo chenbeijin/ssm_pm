@@ -15,6 +15,6 @@ public interface ITravellerDao {
      * @throws Exception
      */
     @Select("select * from traveller where id = (select travellerId from order_traveller where orderId = #{orderId})")
-    List<Traveller> findByOid(String orderId) throws Exception;
+    public List<Traveller> findByOid(String orderId) throws Exception;
 
 }

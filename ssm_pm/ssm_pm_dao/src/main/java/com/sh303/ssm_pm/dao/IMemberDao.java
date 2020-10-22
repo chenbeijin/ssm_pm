@@ -13,6 +13,6 @@ public interface IMemberDao {
      * @throws Exception
      */
     @Select("select * from member where id = #{id}")
-    Member findById(String id) throws Exception;
+    public Member findById(String id) throws Exception;
 
 }

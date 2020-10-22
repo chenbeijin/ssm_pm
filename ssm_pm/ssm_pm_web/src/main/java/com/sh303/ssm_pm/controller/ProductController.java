@@ -23,8 +23,8 @@ public class ProductController {
      *
      * @return
      */
-    @GetMapping("/add.do")
-    public ModelAndView add() {
+    @GetMapping("/add.to")
+    public ModelAndView toAdd() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("product-add");
         return modelAndView;

@@ -26,10 +26,10 @@ public interface IOrdersDao {
             @Result(property = "orderStatus", column = "orderStatus"),
             @Result(property = "product", column = "productId", javaType = Product.class, one = @One(select = "com.sh303.ssm_pm.dao.IProductDao.findById"))
     })
-    List<Orders> findAdd() throws Exception;
+    public List<Orders> findAll() throws Exception;
 
     /**
-     * 查询单条订单
+     * 根据订单id查询订单详细
      *
      * @param ordersId
      * @return
@@ -48,5 +48,5 @@ public interface IOrdersDao {
             @Result(property = "member", column = "memberId", javaType = Member.class, one = @One(select = "com.sh303.ssm_pm.dao.IMemberDao.findById")),
             @Result(property = "travellerList", column = "id", javaType = java.util.List.class, many = @Many(select = "com.sh303.ssm_pm.dao.ITravellerDao.findByOid"))
     })
-    Orders findById(String ordersId) throws Exception;
+    public Orders findById(String ordersId) throws Exception;
 }

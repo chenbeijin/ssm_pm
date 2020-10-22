@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf126192-ff17-47d8-92a5-d764fc9b03ea" name="Default Changelist" comment="完成 登录密码加密，添加用户，用户详细">
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/pages/user-page-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IOrdersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IOrdersDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/IOrdersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/IOrdersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IOrdersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IOrdersServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,105 +45,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IUserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+            <state relative-caret-position="-626">
+              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/product-page-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="132" column="40" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/orders-page-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3459">
-              <caret line="510" column="40" selection-start-line="510" selection-start-column="40" selection-end-line="510" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-page-list.jsp">
+        <entry file="file://$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4066">
-              <caret line="214" column="64" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/OrdersController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state relative-caret-position="228">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IOrdersService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IOrdersServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,7 +132,6 @@
         <option value="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/orders-page-list.jsp" />
         <option value="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java" />
         <option value="$PROJECT_DIR$/ssm_pm_entity/src/main/java/com/sh303/ssm_pm/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/ssm_pm_entity/src/main/java/com/sh303/ssm_pm/entity/Role.java" />
         <option value="$PROJECT_DIR$/ssm_pm_entity/src/main/java/com/sh303/ssm_pm/entity/Permission.java" />
@@ -237,6 +152,7 @@
         <option value="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IUserService.java" />
         <option value="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-page-list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java" />
       </list>
     </option>
   </component>
@@ -292,7 +208,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -768,7 +684,7 @@
       <workItem from="1603117217197" duration="4726000" />
       <workItem from="1603161334187" duration="4091000" />
       <workItem from="1603243597272" duration="5563000" />
-      <workItem from="1603345354298" duration="8708000" />
+      <workItem from="1603345354298" duration="11228000" />
     </task>
     <task id="LOCAL-00001" summary="完成 产品的添加功能，订单的详细功能，用户角色权限登录">
       <created>1603113771800</created>
@@ -795,7 +711,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136869000" />
+    <option name="totallyTimeSpent" value="139389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -807,9 +723,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -819,16 +736,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57080925" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.57080925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5959596" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32756132" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32947975" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32803467" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32658958" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32658958" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49932975" weight="0.32658958" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.39306358" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.6031746" />
@@ -1045,17 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_pm_entity/src/main/java/com/sh303/ssm_pm/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1105,16 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1266,8 +1162,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-page-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4066">
-          <caret line="214" column="64" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
+        <state relative-caret-position="361">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-626">
+          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

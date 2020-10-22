@@ -6,8 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf126192-ff17-47d8-92a5-d764fc9b03ea" name="Default Changelist" comment="完成 登录密码加密，添加用户，用户详细">
+    <list default="true" id="bf126192-ff17-47d8-92a5-d764fc9b03ea" name="Default Changelist" comment="完成 测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="bae67357-36af-4b53-b94c-ea297028499e" name="Revert &quot;完成 测试&quot;" comment="Revert &quot;完成 测试&quot;&#10;&#10;This reverts commit c4b5ccbc">
+      <change beforePath="$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="254">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#301#302#0" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
@@ -92,6 +95,9 @@
       <replace>./</replace>
       <replace>${pageContext.request.contextPath}/</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="6e2664a3e312016145354db49d841bcff051c245" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -222,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -468,6 +473,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,7 +690,7 @@
       <workItem from="1603117217197" duration="4726000" />
       <workItem from="1603161334187" duration="4091000" />
       <workItem from="1603243597272" duration="5563000" />
-      <workItem from="1603345354298" duration="11228000" />
+      <workItem from="1603345354298" duration="12680000" />
     </task>
     <task id="LOCAL-00001" summary="完成 产品的添加功能，订单的详细功能，用户角色权限登录">
       <created>1603113771800</created>
@@ -707,11 +713,25 @@
       <option name="project" value="LOCAL" />
       <updated>1603353319606</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成 测试">
+      <created>1603357414074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603357414074</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完成 测试">
+      <created>1603358255005</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603358255005</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139389000" />
+    <option name="totallyTimeSpent" value="140841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,7 +746,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -744,10 +764,10 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32803467" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32658958" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.45086706" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49932975" weight="0.32658958" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.39306358" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49932975" visible="true" weight="0.45086706" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.6031746" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32756132" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32658958" />
@@ -777,6 +797,32 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -786,7 +832,8 @@
     </ignored-roots>
     <MESSAGE value="完成 产品的添加功能，订单的详细功能，用户角色权限登录" />
     <MESSAGE value="完成 登录密码加密，添加用户，用户详细" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 登录密码加密，添加用户，用户详细" />
+    <MESSAGE value="完成 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/failer.jsp">
@@ -1179,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_pm_utils/src/main/java/com/sh303/ssm_pm/utils/BCryptPasswordEncoderUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="254">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />

@@ -10,5 +10,9 @@ public class BCryptPasswordEncoderUtils {
         return bCryptPasswordEncoder.encode(password);
     }
 
-
+    public static void main(String[] args) {
+        String s = BCryptPasswordEncoderUtils.encodePassword("123");
+        System.out.println(s);
+        System.out.println(s.length());
+    }
 }

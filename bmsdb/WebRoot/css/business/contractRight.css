@@ -1,0 +1,149 @@
+body{
+overflow:scroll;
+overflow-y:auto;
+overflow-x:hidden;
+}
+.titlediv{
+font-size:25px;
+font-weight:900;
+margin-top:2px;
+text-align: center;
+}
+legend{
+font-size:12px;
+}
+.tab_0{
+width:97%; 
+border:0;
+ background-color:#99bbe8; 
+align:center;
+font-size:12px;
+}
+#tab_1{
+width:99%;
+height:100%;
+background-color:#FDFEFE;
+dispaly:block;
+}
+#tab_2{
+width:99%;
+height:100%;
+background-color:#FDFEFE;
+display:none;
+}
+.table_top{
+height:20px;
+}
+.table{
+width:100%;
+margin:0px;
+}
+span{
+font-size:12px;
+}
+
+.tabbox{
+margin-bottom:-4px;
+padding-top:8px;
+}
+.tdbox{
+background:#ffffff;
+}
+font{
+color:#ff0000;
+}
+.tabbox ul {
+	border-top: medium none;
+	border-right: medium none;
+	border-bottom: medium none;
+	border-left: medium none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 0px;
+	background: none transparent scroll repeat 0% 0%;
+}
+.tab_td{
+width:11%; 
+background-color:#f2f8fc;
+text-align:center;
+}
+.tab_td3{
+width:44%;
+background-color:#f2f8fc;
+}
+.tab_td2{
+width:40%;
+ background-color:#f2f8fc;
+}
+.inputText{
+width:250px;
+}
+.trTextarea{
+height:60px;
+}
+textarea{
+height:60px;
+width:720px;	
+}
+.input_1{
+width:250px;
+}
+#qryDiv{
+margin-top:20px;
+margin-left:20px;
+}
+.tab_td_1{
+width:3.2%; 
+background-color:#f2f8fc;
+text-align:center;
+}
+.tab_td_2{
+width:6%;
+ background-color:#f2f8fc;
+}
+.input_text_1{
+	width:220px;
+}
+.tab_td_1_1{
+	width:3%;
+ background-color:#f2f8fc;
+	
+}
+.input_text_1_1{
+	width:100px;
+}
+.tab_td_1_2{
+	width:0.07%;
+	background-color:#f2f8fc;
+}
+.tab_td_2_1{
+	width:3.7%; 
+	background-color:#f2f8fc;
+	text-align:center;
+}
+.tab_td_2_2{
+		width:4%;
+		background-color:#f2f8fc;
+}
+.input_2{
+	width:220px;
+}
+img{
+	 vertical-align:middle;
+}
+.formTable{ padding: 0;
+	font-size: 12px;
+	vertical-align: middle;
+	width: 100%;
+	margin: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: #f2f8fc;
+}
+.formTable tr {
+	height: 25px;
+}
+.formTable .trTextarea {
+	height: 150px;
+}

@@ -1,0 +1,55 @@
+body {
+	overflow: scroll;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+.titleDiv {
+	font-size: 25px;
+	font-weight: 900;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btnDiv {
+	border: 1px solid #b4d6e1;
+	background-color: #ebf8fc;
+	padding-left: 10px;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.mainForm {
+	text-align: center;
+}
+
+.forecastMainTable {
+    border: 1px solid #b4d6e1;
+	background-color: #99bbe8;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.detailTable {
+	background-color: ghostwhite;
+}
+
+.tabTable {
+	border: 0px;
+	width: 100%;
+}
+
+.tabTable td {
+	border: 0px;
+	margin: 0px;
+}
+
+.btn_bg {
+    top:50%; margin-top:-12px;
+}

@@ -1,0 +1,111 @@
+body {
+	margin:0px;
+	background-color:#177cb0;
+}
+#top {
+	background-image:url(/SpringMVCMybatisDemo/images/portal/topbg.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	background-attachment:fixed;
+	background-size:percentage;	
+	width:100%;
+	height:80px;
+	z-index:10;
+}
+#logo {
+	position:relative;
+	background-image:url(/SpringMVCMybatisDemo/images/portal/logon22.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:96px;
+	height:57px;	
+	margin-left:15px;
+	margin-top:10px;
+	z-index:50;
+}
+#title {
+	position:relative;
+	background-image:url(/SpringMVCMybatisDemo/images/portal/title00.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:467px;
+	height:45px;
+	margin-left:110px;
+	margin-top:-50px;
+	z-index:50;
+}
+#middle {
+	background-image:url(/SpringMVCMybatisDemo/images/portal/middlebg.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	background-size:cover;		
+	width:100%;
+	height:482px;
+}
+.divLogo {
+	width:100%;	
+	padding-top:200px;
+}
+#bottom {
+	background-image:url(/SpringMVCMybatisDemo/images/portal/bottom.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	background-size:contain;	
+	width:100%;
+	height:40px;
+}
+#copyright {
+	margin-top:10px;
+	text-align:center;
+	font-size:14px;
+	font-family:Arial;
+	color:#ccc;
+}
+.label {
+	background-color:#024164;
+	font-size:16px;
+	color:#ccc;
+	font-weight:900;
+}
+.tdbg {
+	background-color:#024164;
+}
+.input1 {
+	width:220px;
+	font-size:16px;
+}
+.input2 {
+	width:110px;
+	font-size:16px;
+}
+.btnlogo {
+	width:119px;
+	height:117px;
+	cursor:hand;
+}
+
+.t1 {
+	width:9px;
+	background-image:url(/SpringMVCMybatisDemo/images/portal/logo_10.png);
+	background-repeat:no-repeat;
+}
+.t2 {
+	width:73px;
+	background-image:url(/SpringMVCMybatisDemo/images/portal/logo_11.png);
+	background-repeat:no-repeat;
+}
+.t3 {
+	width:208px;
+	background-image:url(/SpringMVCMybatisDemo/images/portal/logo_12.png);
+	background-repeat:no-repeat;
+}
+.t4 {
+	width:77px;
+	background-image:url(/SpringMVCMybatisDemo/images/portal/logo_11.png);
+	background-repeat:no-repeat;
+}
+.t5 {
+	width:9px;
+	background-image:url(/SpringMVCMybatisDemo/images/portal/logo_13.png);
+	background-repeat:no-repeat;
+}

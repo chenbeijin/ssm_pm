@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans>
+    <bean id="u" class="com.zxcc.dao.impl.UserDAOImpl">
+        <!-- <log method="*"> -->
+    </bean>
+
+    <bean id="userService" class="com.zxcc.service.UserService">
+        <property name="UserDAO" bean="u"/>
+    </bean>
+</beans>

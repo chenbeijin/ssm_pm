@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="u" class="com.zxcc.dao.impl.UserDAOImpl"/>
+
+    <bean id="userService" class="com.zxcc.service.UserService">
+        <!-- 根据service 的setUserDAO方法中的对象UserDAO创建对象-->
+<!--        <property name="userDAO" ref="u"/>-->
+
+        <!-- service 创建了构造方法传实现UserDAO接口的类来创建UserDAO对象-->
+<!--        <constructor-arg ref="u">-->
+
+<!--        </constructor-arg>-->
+<!--        或-->
+        <constructor-arg>
+            <ref bean="u"/>
+        </constructor-arg>
+    </bean>
+
+</beans>

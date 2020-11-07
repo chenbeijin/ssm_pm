@@ -114,7 +114,8 @@
                                         <i class="fa fa-file-o"></i> 新建
                                     </button>
 
-                                    <button type="button" class="btn btn-default" title="刷新">
+                                    <button type="button" class="btn btn-default" title="刷新"
+                                            onclick="location.href = '${pageContext.request.contextPath}/user/findAll.do'">
                                         <i class="fa fa-refresh"></i> 刷新
                                     </button>
                                 </div>
@@ -158,8 +159,10 @@
                                     <td class="text-center">
                                         <a href="${pageContext.request.contextPath}/user/findByUid.do?id=${user.id}"
                                            class="btn bg-olive btn-xs">详情</a>
-                                        <a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}"
+                                        <a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.to?id=${user.id}"
                                            class="btn bg-olive btn-xs">添加角色</a>
+                                        <a href="${pageContext.request.contextPath}/user/deleteUser.do?id=${user.id}"
+                                           class="btn bg-olive btn-xs">删除角色</a>
                                     </td>
                                 </tr>
                             </c:forEach>
@@ -207,9 +210,13 @@
                                 <a href="${pageContext.request.contextPath}/user/findAll.do?pageNum=${pageInfo.pageNum-1}&pageSize=${pageInfo.pageSize}">上一页</a>
                             </li>
                             <c:forEach begin="1" end="${pageInfo.pages}" var="pageNum">
-                                <li><a href="${pageContext.request.contextPath}/user/findAll.do?pageNum=${pageInfo.pageNum}&pageSize=${pageInfo.pageSize}">${pageInfo.pageNum}</a></li>
+                                <li>
+                                    <a href="${pageContext.request.contextPath}/user/findAll.do?pageNum=${pageNum}&pageSize=${pageInfo.pageSize}">${pageNum}</a>
+                                </li>
                             </c:forEach>
-                            <li><a href="${pageContext.request.contextPath}/user/findAll.do?pageNum=${pageInfo.pageNum+1}&pageSize=${pageInfo.pageSize}">下一页</a></li>
+                            <li>
+                                <a href="${pageContext.request.contextPath}/user/findAll.do?pageNum=${pageInfo.pageNum+1}&pageSize=${pageInfo.pageSize}">下一页</a>
+                            </li>
                             <li>
                                 <a href="${pageContext.request.contextPath}/user/findAll.do?pageNum=${pageInfo.pages}&pageSize=${pageInfo.pageSize}"
                                    aria-label="Next">尾页</a></li>

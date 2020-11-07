@@ -14,7 +14,7 @@ public interface IOrdersService {
      * @return
      * @throws Exception
      */
-    List<Orders> findAll(Integer pageNum, Integer pageSize) throws Exception;
+    public List<Orders> findAll(Integer pageNum, Integer pageSize) throws Exception;
 
     /**
      * 根据订单oId查询订单详细
@@ -23,5 +23,5 @@ public interface IOrdersService {
      * @return
      * @throws Exception
      */
-    Orders findById(String id) throws Exception;
+    public Orders findById(String id) throws Exception;
 }

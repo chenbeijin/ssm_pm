@@ -28,7 +28,9 @@ public class IOrdersServiceImpl implements IOrdersService {
     @Override
     public List<Orders> findAll(Integer pageNum, Integer pageSize) throws Exception {
         // 参数pageNum 是页码值  参数pageSize 是每页显示条数
-        PageHelper.startPage(pageNum, pageSize);
+        if (pageNum != null && pageSize != null) {
+            PageHelper.startPage(pageNum, pageSize);
+        }
         return iOrdersDao.findAll();
     }
 

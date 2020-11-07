@@ -1,5 +1,6 @@
 package com.sh303.ssm_pm.dao;
 
+import com.sh303.ssm_pm.entity.Role;
 import com.sh303.ssm_pm.entity.UserInfo;
 import org.apache.ibatis.annotations.*;
 
@@ -80,4 +81,42 @@ public interface IUserDao {
      */
     @Select("select * from users where id in (select usersId from users_role where roleId = #{rid})")
     public List<UserInfo> findUserByRoleId(Integer rid) throws Exception;
+
+    /**
+     * 用户添加角色
+     *
+     * @param usersId
+     * @param roleId
+     * @throws Exception
+     */
+    @Insert("insert into users_role(usersId, roleId) values(#{usersId}, #{roleId})")
+    public void addRoleToUser(@Param("usersId") Integer usersId, @Param("roleId") Integer roleId) throws Exception;
+
+    /**
+     * 根据用户id删除用户和角色中间表有联系的数据
+     *
+     * @param id
+     * @throws Exception
+     */
+    @Delete("delete from users_role where usersId = #{id}")
+    public void deleteFromUser_RoleByUserId(Integer id) throws Exception;
+
+    /**
+     * 根据用户id删除用户
+     *
+     * @param id
+     * @throws Exception
+     */
+    @Delete("delete from users where id = #{id}")
+    public void deleteUserById(Integer id) throws Exception;
+
+    /**
+     * 查询用户未添加的角色
+     *
+     * @param userId
+     * @return
+     * @throws Exception
+     */
+    @Select("select * from role where id not in (select roleId from users_role where usersId = #{userId})")
+    public List<Role> findOtherRoles(Integer userId) throws Exception;
 }

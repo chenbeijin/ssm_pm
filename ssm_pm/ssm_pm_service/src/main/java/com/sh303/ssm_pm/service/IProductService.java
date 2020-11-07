@@ -13,7 +13,7 @@ public interface IProductService {
      * @param pageSize
      * @return
      */
-    List<Product> findAll(Integer pageNum, Integer pageSize) throws Exception;
+    public List<Product> findAll(Integer pageNum, Integer pageSize) throws Exception;
 
     /**
      * 添加单条产品
@@ -21,6 +21,6 @@ public interface IProductService {
      * @param product
      * @throws Exception
      */
-    void save(Product product) throws Exception;
+    public void save(Product product) throws Exception;
 
 }

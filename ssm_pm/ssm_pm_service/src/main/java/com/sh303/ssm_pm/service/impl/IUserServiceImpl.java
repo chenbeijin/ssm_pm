@@ -63,7 +63,9 @@ class IUserServiceImpl implements IUserService {
      */
     @Override
     public List<UserInfo> findAll(Integer pageNum, Integer pageSize) throws Exception {
-        PageHelper.startPage(pageNum, pageSize);
+        if(pageNum != null && pageSize != null){
+            PageHelper.startPage(pageNum, pageSize);
+        }
         return iUserDao.findAll();
     }
 
@@ -90,5 +92,45 @@ class IUserServiceImpl implements IUserService {
     @Override
     public UserInfo findById(Integer uid) throws Exception {
         return iUserDao.findById(uid);
+    }
+
+    /**
+     * 用户添加角色
+     *
+     * @param usersId
+     * @param ids
+     * @throws Exception
+     */
+    @Override
+    public void addRoleToUser(Integer usersId, Integer[] ids) throws Exception {
+        for (Integer roleId : ids) {
+            iUserDao.addRoleToUser(usersId, roleId);
+        }
+    }
+
+    /**
+     * 删除单条用户
+     *
+     * @param id
+     * @throws Exception
+     */
+    @Override
+    public void deleteUserById(Integer id) throws Exception {
+        // 先删除 用户和角色的中间表有关联的数据
+        iUserDao.deleteFromUser_RoleByUserId(id);
+        // 再删除 用户
+        iUserDao.deleteUserById(id);
+    }
+
+    /**
+     * 查询用户未添加的角色
+     *
+     * @param userId
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public List<Role> findOtherRoles(Integer userId) throws Exception {
+        return iUserDao.findOtherRoles(userId);
     }
 }

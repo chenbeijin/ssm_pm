@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf126192-ff17-47d8-92a5-d764fc9b03ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf126192-ff17-47d8-92a5-d764fc9b03ea" name="Default Changelist" comment="完善了 后台用户权限的功能" />
     <list id="bae67357-36af-4b53-b94c-ea297028499e" name="Revert &quot;完成 测试&quot;" comment="Revert &quot;完成 测试&quot;&#10;&#10;This reverts commit c4b5ccbc" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/aside.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+            <state relative-caret-position="305">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -710,7 +708,7 @@
       <workItem from="1603603710388" duration="15140000" />
       <workItem from="1603697579380" duration="7707000" />
       <workItem from="1603849451876" duration="5562000" />
-      <workItem from="1604729810773" duration="8471000" />
+      <workItem from="1604729810773" duration="10780000" />
     </task>
     <task id="LOCAL-00001" summary="完成 产品的添加功能，订单的详细功能，用户角色权限登录">
       <created>1603113771800</created>
@@ -775,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604741111717</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="完善了 后台用户权限的功能">
+      <created>1604741176990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604741176990</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183862000" />
+    <option name="totallyTimeSpent" value="186171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1292,8 +1297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/aside.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="305">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
         </state>
       </provider>
     </entry>

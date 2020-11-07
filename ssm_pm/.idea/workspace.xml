@@ -6,78 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf126192-ff17-47d8-92a5-d764fc9b03ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../datastructures/.idea/dictionaries/chenbeijin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datastructures/src/com/blibli/thread/Volatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IPermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/IPermissionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/IRoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IPermissionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IRoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/PermissionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/403.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/permission-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/permission-page-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/permission-show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/role-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/role-page-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/role-permission-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/role-show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/target/classes/com/sh303/ssm_pm/controller/PermissionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/target/classes/com/sh303/ssm_pm/controller/RoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/classes/com/sh303/ssm_pm/controller/PermissionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/classes/com/sh303/ssm_pm/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IPermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IPermissionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_dao/src/main/java/com/sh303/ssm_pm/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IPermissionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IPermissionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IRoleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_dao/target/classes/com/sh303/ssm_pm/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IOrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IOrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IOrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IOrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/src/main/java/com/sh303/ssm_pm/service/impl/IUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IOrdersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IOrdersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_service/target/classes/com/sh303/ssm_pm/service/impl/IUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/java/com/sh303/ssm_pm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/orders-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/orders-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/product-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/product-page-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-page-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/user-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/classes/com/sh303/ssm_pm/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/target/classes/com/sh303/ssm_pm/controller/OrdersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/classes/com/sh303/ssm_pm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/target/classes/com/sh303/ssm_pm/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web.war" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/classes/com/sh303/ssm_pm/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/classes/com/sh303/ssm_pm/controller/OrdersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/classes/com/sh303/ssm_pm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/classes/com/sh303/ssm_pm/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/lib/ssm_pm_dao-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/lib/ssm_pm_service-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/WEB-INF/lib/ssm_pm_utils-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/pages/orders-page-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/pages/orders-show.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/pages/product-page-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/pages/user-page-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_pm_web/target/ssm_pm_web/pages/user-show.jsp" beforeDir="false" />
-    </list>
+    <list default="true" id="bf126192-ff17-47d8-92a5-d764fc9b03ea" name="Default Changelist" comment="" />
     <list id="bae67357-36af-4b53-b94c-ea297028499e" name="Revert &quot;完成 测试&quot;" comment="Revert &quot;完成 测试&quot;&#10;&#10;This reverts commit c4b5ccbc" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/aside.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+            <state relative-caret-position="400">
+              <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -779,7 +708,7 @@
       <workItem from="1603603710388" duration="15140000" />
       <workItem from="1603697579380" duration="7707000" />
       <workItem from="1603849451876" duration="5562000" />
-      <workItem from="1604729810773" duration="6190000" />
+      <workItem from="1604729810773" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="完成 产品的添加功能，订单的详细功能，用户角色权限登录">
       <created>1603113771800</created>
@@ -823,11 +752,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603359042492</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完善了 后台用户权限的功能">
+      <created>1604737881742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604737881745</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181581000" />
+    <option name="totallyTimeSpent" value="182607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -839,10 +775,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27815014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27815014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -943,7 +878,8 @@
     <MESSAGE value="完成 产品的添加功能，订单的详细功能，用户角色权限登录" />
     <MESSAGE value="完成 测试" />
     <MESSAGE value="完成 登录密码加密，添加用户，用户详细" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 登录密码加密，添加用户，用户详细" />
+    <MESSAGE value="完善了 后台用户权限的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善了 后台用户权限的功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssm_pm_entity/src/main/java/com/sh303/ssm_pm/entity/UserInfo.java">
@@ -1339,8 +1275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_pm_web/src/main/webapp/pages/aside.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+        <state relative-caret-position="400">
+          <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
         </state>
       </provider>
     </entry>

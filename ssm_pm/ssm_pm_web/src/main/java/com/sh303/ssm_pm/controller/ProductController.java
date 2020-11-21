@@ -23,7 +23,7 @@ public class ProductController {
      *
      * @return
      */
-    @GetMapping("/add.to")
+    @RequestMapping("/add.to")
     public ModelAndView toAdd() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("product-add");
@@ -58,7 +58,7 @@ public class ProductController {
      * @param product
      * @return
      */
-    @PostMapping("/save.do")
+    @RequestMapping("/save.do")
     public String save(Product product) {
         try {
             product.setId(UuidUtils.getUuid());

@@ -5,7 +5,6 @@ import com.sh303.ssm_pm.entity.Orders;
 import com.sh303.ssm_pm.service.IOrdersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -24,7 +23,7 @@ public class OrdersController {
      *
      * @return
      */
-    @GetMapping("add.to")
+    @RequestMapping("add.to")
     public ModelAndView toAdd() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("orders-add");
